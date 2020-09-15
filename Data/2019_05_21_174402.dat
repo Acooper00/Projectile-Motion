@@ -1,0 +1,14 @@
+t_resolution                            - 0.01
+accuracy                                - 3
+
+u                                       - 94.44
+density                                 - 1.225
+C                                       - 1.47
+r                                       - 0.0213
+start_angle                             - 45.0
+start_height                            - 1.0
+m                                       - 0.045
+g_acceleration                          - -9.8
+
+t	s	v	angle	v_vertical	v_horizontal	s_vertical	s_horizontal	air_resistance	air_resistance_vertical	air_resistance_horizontal	acceleration_vertical	acceleration_horizontal
+0	1.0	94.44	45.0	66.76907999999999	66.76907999999999	0.0	0.0	-	-	-	-	-
