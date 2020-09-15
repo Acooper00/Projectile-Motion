@@ -4,12 +4,14 @@ Simulates the motion of a projectile with some account for air resistance
 Priciples Used:
 - The object is moved forward the appropriate distance due to its velocity and angle.
 - The vertical and horizontal components of the object's velocity are calculated from its velocity and angle
-- The force of air resistace is calculated using the equation F = -(k/2)(v^2), where k is a predetermined constant calculated from the parameters of the ball, and v is the velocity of the object
+- The force of air resistace is calculated using the equation F = -(k/2)(v^2), where k is a predetermined constant calculated from the parameters of the object, and v is the velocity of the object
 - The vertical and horizontal components of the force of air resistace is calculated
 - The vertical and horizontal components of the force on the object is calculated using the resolved forces of air resistance and the force of gravity, divided by the mass of the object
 - The vertical and horizontal components of the object's velocity are updated by adding the resolved accelerations.
 - The new velocity and angle then calculated
 - The value of time is then incremented
+
+The simulation assumes no wind or turbulence. It does also not account for any spin of the object, or any changes to the objects parameters while in the air.
 
 
 The format of the ".dat" files:
